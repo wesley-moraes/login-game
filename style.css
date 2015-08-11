@@ -1,22 +1,16 @@
 /*CSS RESET*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+*, *:after, *:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, del, dfn, em, img, ins, kbd, q, small, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, footer, header, menu, nav, output, ruby, section, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -42,7 +36,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /*CSS RESET*/
 
 /*AFTER RESET*/
@@ -56,11 +49,107 @@ h2{
     font-size: 2.4em;
 }
 h3{
-    font-size: 18.5em;
+    font-size: 1.5em;
 }
 h4{
     font-size: 16px;
 }
-
-
 /*AFTER RESET*/
+
+.w100{
+    width: 100%;
+}
+.link{
+    color: #00A3D8;
+}
+/*Body*/
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/CD1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/**/
+.wrapper-col{
+
+    width: 41.64497657470068%;
+    margin-left: 10.41124414367517%;
+    height: 100vh;
+    background-color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 20px;
+}
+header{
+    height: 12.25806451612903%;
+    width: 100%;
+}
+.logo-img{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.logo-img img{
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+}
+.logo-text{
+    float: left;
+    margin-left: 2%;
+}
+.logo-text p{
+    font-family: "roboto-thin";
+    font-size: 3vw;
+    margin-top: 10%;
+}
+.menu{
+    height: 05.55555555555556%;
+    background-color: #15244F;
+    margin-top: 01.85185185185185%;
+    margin-bottom: 06.85185185185185%;
+}
+.content-title{
+    margin-bottom: 01.48148148148148%;
+}
+.content-title p{
+    font-family: "caviar-dreams-bold";
+    font-size: 1.26vw;
+    text-transform: uppercase;
+    color: #444444;
+}
+.content-text{
+    margin-bottom: 01.85185185185185%;
+}
+.content-text p{
+    font-family: "caviar-dreams";
+    font-size: 16px;
+    color: #444444;
+}
+.form-box{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.form-box label{
+    font-family: "roboto-slab-bold";
+    font-size: 1vw;
+    color: #444;
+    display: block;
+}
+.half-size-form label{
+    font-family: "roboto-slab-bold";
+    font-size: 1vw;
+    color: #444;
+}
+.half-size-form{
+    width: 29.62962962962963%;
+    float: left;
+}
+.half-size-form:nth-child(odd){
+    margin-left: 0px;
+}
+.half-size-form:nth-child(even){
+    margin-left: 0px;
+}
