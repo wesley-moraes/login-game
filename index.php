@@ -37,9 +37,9 @@
                         <label for="">First Name</label>
                         <input type="text">
                     </div>
-                    <div class="half-size-form">
-                        <label for="">Last Name</label>
-                        <input type="text">
+                    <div class="half-size-form ">
+                        <label for="" >Last Name</label>
+                        <input type="text" class="half-left-margin">
                     </div>
                     <div class="form-box">
                         <label for="">Email</label>
