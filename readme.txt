@@ -1,5 +1,6 @@
 Final War Game.
-Protótipo desenvolvido com a finalidade de simular um jogo online. Jogo básico de evolução do próprio personagem, similar aos jogos comuns que se tem no mesmo estilo (TribalWars, NarutoPLayers, Bleachplayers, nemexius(?)).
+(Protótipo de tela inicial com conceitos de um futuro jogo)
+Desenvolvido com a finalidade de simular um jogo online. Jogo básico de evolução do próprio personagem, similar aos jogos comuns que se tem no mesmo estilo (TribalWars, NarutoPLayers).
 
 Na tela inicial, é possível:
 -Logar
@@ -24,7 +25,7 @@ Após o cadastro do personagem, ele acessa o menu do personagem, com as seguintes
 Menu com as seguintes opções:
 	- Missões ()
 		-Realizar diversas missões que já se tem no mapa
-	- Mapa (Navegar pelo mapa)
+	- Mapa ()
 	- Nome do personagem
 		-Descrição da personalidade
 		-Idade
