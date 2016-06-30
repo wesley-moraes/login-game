@@ -19,7 +19,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+/*	line-height: 1;*/
 }
 ol, ul {
 	list-style: none;
@@ -62,20 +62,35 @@ h4{
 .link{
     color: #00A3D8;
 }
+.link:hover{
+    color: #007CA6;
+    text-decoration: underline;
+}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: " ";
+}
+.vertical-align{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 /*Body*/
 body{
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     background-image: url("img/CD1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /**/
 .wrapper-col{
 
     width: 41.64497657470068%;
     margin-left: 10.41124414367517%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fff;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -109,6 +124,37 @@ header{
     background-color: #15244F;
     margin-top: 01.85185185185185%;
     margin-bottom: 06.85185185185185%;
+    float: left;
+}
+.menu ul{
+    display: block;
+    height: 100%;
+    float: left;
+}
+.menu ul li{
+    height: 100%;
+    float: left;
+    padding-right: 10%;
+    transition: all .6s;
+}
+.menu ul li a{
+    font-size: 1.1vw;
+    font-family: "roboto-slab-regular";
+    color: #DDDDDD;
+    margin-left: 3px;
+}
+.menu ul li:hover {
+    background-color: #ECECFB;
+    overflow: hidden;
+}
+.menu ul li:hover a{
+    color: #222222;
+}
+.menu nav{
+    
+    height: 100%;
+    line-height: 4.8em;
+    float: left;
 }
 .content-title{
     margin-bottom: 01.48148148148148%;
@@ -127,6 +173,15 @@ header{
     font-size: 16px;
     color: #444444;
 }
+.form-input input{
+    outline: none;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #888888;
+}
+.form-input{
+    margin-bottom: 2%;
+}
 .form-box{
     width: 100%;
     display: block;
@@ -138,18 +193,47 @@ header{
     color: #444;
     display: block;
 }
+.form-box input{
+    width: 100%;
+}
+.half-size-form input{
+    padding: 4% 2% 4% 4%;
+    width: 80%;
+}
 .half-size-form label{
     font-family: "roboto-slab-bold";
     font-size: 1vw;
     color: #444;
+    display: table;
 }
 .half-size-form{
-    width: 29.62962962962963%;
+    width: 50%;
+    display: table;
     float: left;
+    min-height: 2%;
 }
-.half-size-form:nth-child(odd){
-    margin-left: 0px;
+
+/*BTN*/
+.btn-ghost1{
+    float: left;
+    background-color: #fff;
+    color: #444444;
+    border: 1px solid #111111;
+    width: 22.5%;
+    height: 5vh;
+/*    line-height: normal;*/
+    outline: none;
+    font-size: 0.8vw;
+    font-family: "raleway-light";
+    transition: all .5s;
 }
-.half-size-form:nth-child(even){
-    margin-left: 0px;
+.btn-ghost1:hover{
+    background-color: #111111;
+    color: #fff;
+    cursor: pointer;
 }
+.btn-ghost1:active{
+    background-color: #222;
+    color: #aaa;
+}
+/*BTN*/

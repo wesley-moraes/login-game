@@ -45,3 +45,29 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'raleway-light';
+    src: url('fonts/raleway/light/raleway-light-webfont.eot');
+    src: url('fonts/raleway/light/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway/light/raleway-light-webfont.woff2') format('woff2'),
+         url('fonts/raleway/light/raleway-light-webfont.woff') format('woff'),
+         url('fonts/raleway/light/raleway-light-webfont.ttf') format('truetype'),
+         url('fonts/raleway/light/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-slab-regular';
+    src: url('fonts/roboto-slab/regular/robotoslab-regular-webfont.eot');
+    src: url('fonts/roboto-slab/regular/robotoslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-slab/regular/robotoslab-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-slab/regular/robotoslab-regular-webfont.woff') format('woff'),
+         url('fonts/roboto-slab/regular/robotoslab-regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto-slab/regular/robotoslab-regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
