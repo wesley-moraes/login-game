@@ -1,2 +1,2 @@
 # Final War Game.
-Protótipo de tela inicial com conceitos de um futuro jogo
+[refeito para front end: link]
